@@ -1,0 +1,37 @@
+.weather-forecast {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.forecast-day {
+  font-size: larger;
+  text-align: center;
+}
+
+.forecast-icon {
+  width: 88px;
+  height: 88px;
+  display: block;
+  margin: 0 auto;
+}
+
+.forecast-temperature {
+  display: flex;
+  font-size: larger;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.forecast-temperature-max {
+  margin-left: 5px;
+}
+
+.forecast-temperature-min {
+  margin-left: 15px;
+}
+
+.forecast-unit {
+  font-size: small;
+  margin-bottom: 5px;
+}
